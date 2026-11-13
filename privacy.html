@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | RealTime Type</title>
+  <meta name="description" content="Privacy policy for the RealTime Type Chrome extension.">
+  <link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top">
+        <svg viewBox="0 0 40 40" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="9" width="34" height="22" rx="4"/>
+          <path d="M9 16h2M15 16h2M21 16h2M27 16h2M9 21h2M15 21h2M21 21h2M27 21h2M13 26h14"/>
+        </svg>
+        RealTime Type
+      </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#data">Data</a>
+        <a href="#permissions">Permissions</a>
+        <a href="#choices">Your Choices</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+
+    <div class="hero">
+      <p class="eyebrow">Legal Notice</p>
+      <p class="byline">RealTime Type · Chrome extension</p>
+      <h1>Privacy Policy</h1>
+      <p class="dates">Effective Date: November 2026 · Last Updated: November 2026</p>
+
+      <div class="callout">
+        <p>This policy explains what RealTime Type does with your data, which is very little, so there are never any surprises. Everything stays on your device.</p>
+      </div>
+    </div>
+
+    <nav class="contents" aria-label="Contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#what"><span class="n">01</span> What It Does</a></li>
+        <li><a href="#data"><span class="n">02</span> Data It Handles</a></li>
+        <li><a href="#storage"><span class="n">03</span> Local Storage</a></li>
+        <li><a href="#sharing"><span class="n">04</span> Sharing</a></li>
+        <li><a href="#permissions"><span class="n">05</span> Permissions</a></li>
+        <li><a href="#limited"><span class="n">06</span> Limited Use</a></li>
+        <li><a href="#security"><span class="n">07</span> Security</a></li>
+        <li><a href="#choices"><span class="n">08</span> Your Choices</a></li>
+        <li><a href="#changes"><span class="n">09</span> Policy Changes</a></li>
+      </ol>
+    </nav>
+
+    <section id="what">
+      <div class="section-head"><span class="badge">01</span><h2 class="title">What It Does</h2></div>
+      <p>RealTime Type types text <strong>you provide</strong> into a web page <strong>you choose</strong>, at a natural, human-like pace.</p>
+      <p>It only works on the tab you start it on, and only after you press Start in the extension’s popup. It does nothing in the background and nothing on any other page.</p>
+    </section>
+
+    <section id="data">
+      <div class="section-head"><span class="badge">02</span><h2 class="title">Data It Handles</h2></div>
+      <p>While you use RealTime Type, the extension handles the following. None of it is sent anywhere.</p>
+      <ul>
+        <li><strong>The text you paste into the popup.</strong> This is the text it types for you.</li>
+        <li><strong>The text box you are typing into.</strong> During a typing session the extension reads the contents and cursor position of the focused text box to check that text landed in the right place and to correct it if it didn’t. This is held in memory only while typing and is discarded afterward.</li>
+        <li><strong>Mouse and key activity on the page.</strong> It tracks the mouse position so the “click to start” label can appear next to your cursor, notices clicks so it can pause when you click away, and counts key events received so it can tell when focus was lost. It does not record which keys you press.</li>
+      </ul>
+      <p>RealTime Type does not collect your name, email, location, browsing history, passwords, payment details, or any other personal information.</p>
+    </section>
+
+    <section id="storage">
+      <div class="section-head"><span class="badge">03</span><h2 class="title">Local Storage</h2></div>
+      <p>The extension saves two things in your browser using <code>chrome.storage.local</code>:</p>
+      <ul>
+        <li>The text you last pasted into the popup.</li>
+        <li>Your settings: typing speed and which options are switched on or off.</li>
+      </ul>
+      <p>This lets the popup remember your choices next time. It is stored only on your device and is <strong>not synced</strong> to other devices or sent to any server.</p>
+    </section>
+
+    <section id="sharing">
+      <div class="section-head"><span class="badge">04</span><h2 class="title">Sharing</h2></div>
+      <p><strong>Nothing is shared.</strong> RealTime Type makes no network requests. It has no accounts, no analytics, no ads, and no tracking, and the developer has no access to anything you type or store.</p>
+      <p>Your data is never sold or transferred to third parties, never used for purposes unrelated to the extension’s single purpose, and never used to determine creditworthiness or for lending.</p>
+    </section>
+
+    <section id="permissions">
+      <div class="section-head"><span class="badge">05</span><h2 class="title">Permissions</h2></div>
+      <p>RealTime Type asks for a small set of browser permissions, each for one reason:</p>
+      <ul>
+        <li><strong>Debugger.</strong> Sends real keyboard events so text is entered in editors that ignore script-generated keys, reads the focused text box to fix misplaced text, and keeps the page behaving as focused when its window is behind another one. While typing, Chrome shows a banner reading “RealTime Type started debugging this browser.” This is normal and goes away when typing finishes.</li>
+        <li><strong>Scripting.</strong> Shows the “click to start” and “click to resume” label by your cursor and checks whether a text box is already focused.</li>
+        <li><strong>Active tab and access to all sites.</strong> Lets RealTime Type type into whichever site you choose. It does nothing on a page until you press Start.</li>
+        <li><strong>Storage.</strong> Saves your text and settings locally, as described above.</li>
+      </ul>
+    </section>
+
+    <section id="limited">
+      <div class="section-head"><span class="badge">06</span><h2 class="title">Limited Use</h2></div>
+      <p>RealTime Type’s use of information is limited to providing its single purpose: typing the text you provide into the page you choose.</p>
+      <p>The use of information received through Chrome APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. Data is not sold, not used or transferred for advertising, and not read by humans.</p>
+    </section>
+
+    <section id="security">
+      <div class="section-head"><span class="badge">07</span><h2 class="title">Security</h2></div>
+      <p>Because your data never leaves your device, there is nothing to intercept in transit and nothing held on a server.</p>
+      <p>The extension reads the page only during an active typing session. When typing finishes or you stop it, the debugger connection is closed automatically.</p>
+    </section>
+
+    <section id="choices">
+      <div class="section-head"><span class="badge">08</span><h2 class="title">Your Choices</h2></div>
+      <ul>
+        <li><strong>Pause or stop</strong> at any time from the popup, or by clicking Cancel on Chrome’s debugging banner.</li>
+        <li><strong>Clear your saved text</strong> by deleting it from the popup’s text box.</li>
+        <li><strong>Remove everything</strong> by uninstalling the extension, which deletes all data it stored.</li>
+      </ul>
+    </section>
+
+    <section id="changes">
+      <div class="section-head"><span class="badge">09</span><h2 class="title">Policy Changes</h2></div>
+      <p>If RealTime Type ever changes how it handles data, this policy and the extension’s Chrome Web Store disclosures will be updated first, and the “Last Updated” date at the top will change.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 RealTime Type</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+</body>
+</html>
